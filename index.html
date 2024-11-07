@@ -1,5 +1,89 @@
-<html>
-	<h1>
-		Hi this is yunus
-	</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scoreboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+        .scoreboard {
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .scoreboard h2 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .scoreboard .team-info {
+            font-size: 18px;
+            color: #666;
+        }
+        .scoreboard .score {
+            font-size: 36px;
+            margin: 15px 0;
+            color: #007bff;
+        }
+        .scoreboard .overs {
+            font-size: 16px;
+            color: #888;
+            margin: 5px 0;
+        }
+        .scoreboard .fall-of-wickets {
+            margin-top: 15px;
+        }
+        .scoreboard .fall-of-wickets ul {
+            list-style: none;
+            padding: 0;
+            color: #444;
+        }
+        .scoreboard .fall-of-wickets ul li {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="scoreboard">
+    <h2>Cricket Match</h2>
+    
+    <div class="team-info">
+        <strong>Batting Team:</strong> India <br>
+        <strong>Bowling Team:</strong> Australia
+    </div>
+    
+    <div class="score">
+        <strong>Total Score:</strong> 210/6
+    </div>
+    
+    <div class="overs">
+        <strong>Overs Completed:</strong> 35.4
+    </div>
+    
+    <div class="fall-of-wickets">
+        <strong>Fall of Wickets:</strong>
+        <ul>
+            <li>1-45 (Rohit)</li>
+            <li>2-90 (Dhawan)</li>
+            <li>3-120 (Kohli)</li>
+            <li>4-150 (Rahul)</li>
+            <li>5-180 (Pant)</li>
+            <li>6-210 (Jadeja)</li>
+        </ul>
+    </div>
+</div>
+
+</body>
 </html>
